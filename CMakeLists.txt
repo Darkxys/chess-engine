@@ -6,12 +6,12 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 1) Build the engine-core static library
-add_subdirectory(engine-core)
+add_subdirectory(Core)
 
 # 2) Build and enable unit tests (perft)
 enable_testing()
-add_subdirectory(unit-test)
+add_subdirectory(Core.Test)
 
 # 3) Build Python models via pybind11
 find_package(pybind11 REQUIRED)
-add_subdirectory(models)
+add_subdirectory(Models)

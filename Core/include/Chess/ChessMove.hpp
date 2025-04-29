@@ -1,5 +1,5 @@
 #pragma once
-#include "move.hpp"
+#include "Move.hpp"
 #include <cstdint>
 
 class ChessMove : Move<ChessMove>

@@ -1,4 +1,4 @@
-#include "chess-bitboard/chess_move.hpp"
+#include "chess/ChessMove.hpp"
 
 ChessMove::ChessMove(int source, int target, int piece, int promotion, bool capture, bool doublePush, bool enpassant, bool castling)
 {

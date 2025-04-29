@@ -1,7 +1,7 @@
 #pragma once
-#include "state.hpp"
-#include "color.hpp"
-#include "move.hpp"
+#include "State.hpp"
+#include "Color.hpp"
+#include "Move.hpp"
 
 template<class DerivedState, class DerivedMove>
 class Game

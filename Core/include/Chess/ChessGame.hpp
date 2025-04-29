@@ -1,11 +1,11 @@
 #pragma once
 #include <map>
 #include <string>
-#include "game.hpp"
-#include "point.hpp"
-#include "color.hpp"
-#include "chess-bitboard/chess_move.hpp"
-#include "chess-bitboard/chess_state.hpp"
+#include "Game.hpp"
+#include "Point.hpp"
+#include "Color.hpp"
+#include "chess/ChessMove.hpp"
+#include "chess/ChessState.hpp"
 
 class ChessGame : Game<ChessState, ChessMove>
 {

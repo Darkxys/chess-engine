@@ -1,4 +1,4 @@
-#include "chess-bitboard/chess_game.hpp"
+#include "chess/ChessGame.hpp"
 
 std::unique_ptr<ChessState> ChessGame::nextState(ChessState s, ChessMove m)
 {

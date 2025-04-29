@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
-#include "chess-bitboard/chess_game.hpp"
+#include "chess/ChessGame.hpp"
 
 ChessGame game = ChessGame();
 
@@ -24,6 +24,6 @@ unsigned long long perft(int depth, std::unique_ptr<ChessState> state) {
 
 int main() {
 	for(int i = 1; i <= 5; i++)
-		std::cout << perft(i, std::unique_ptr<ChessState>(new ChessState("r3k2r/Pppp1ppp/1b3nbN/nP6/BBP1P3/q4N2/Pp1P2PP/R2Q1RK1 w kq - 0 1"))) << std::endl;
+		std::cout << perft(i, std::unique_ptr<ChessState>(new ChessState("r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - "))) << std::endl;
 	return 0;
 }

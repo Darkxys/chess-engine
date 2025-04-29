@@ -1,4 +1,4 @@
-#include "chess-bitboard/bitboard.hpp"
+#include "chess/Bitboard.hpp"
 
 Bitboard::Bitboard(U64 board)
 {

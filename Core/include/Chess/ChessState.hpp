@@ -1,10 +1,10 @@
 #pragma once
 #include <string>
-#include "pieces.hpp"
-#include "state.hpp"
-#include "color.hpp"
-#include "chess-bitboard/bitboard.hpp"
-#include "chess-bitboard/chess_move.hpp"
+#include "Pieces.hpp"
+#include "State.hpp"
+#include "Color.hpp"
+#include "chess/Bitboard.hpp"
+#include "chess/ChessMove.hpp"
 
 struct ChessState : State<ChessState, ChessMove>
 {

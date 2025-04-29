@@ -1,4 +1,4 @@
-#include "chess-bitboard/chess_state.hpp"
+#include "chess/ChessState.hpp"
 
 // Static variable definitions
 Bitboard ChessState::s_ROOK_MASKS[64] = {};
